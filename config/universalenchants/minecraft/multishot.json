@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow",
+    "celestisynth:crescentia",
+    "celestisynth:rainfall_serenity",
+    "celestisynth:keres",
+    "supplementaries:slingshot",
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "supplementaries:stasis",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

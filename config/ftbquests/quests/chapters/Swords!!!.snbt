@@ -1,0 +1,837 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "sdaas"
+	group: ""
+	id: "383C07A9F8D53CCD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2B7F60C4C1FB7424"
+			rewards: [{
+				count: 24
+				id: "6BC5E89316AD3545"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			tasks: [{
+				id: "093D82C717D28F5F"
+				title: "Ready to enquire about diffrent types of weapons?"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "1785F2D2B997D80E"
+			tasks: [{
+				id: "613F825D043E9631"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Longsword"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "0E0A01B24B01A445"
+			tasks: [{
+				id: "1AACC545AB0C9951"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "55641108747C5950"
+			tasks: [{
+				id: "267395973D9554F5"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "6F80519321F726C4"
+			tasks: [{
+				id: "7893D49371A655E0"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "29BDE50B47196C61"
+			tasks: [{
+				id: "18DD17CE84D1B017"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "49B97A0DF32CEDD8"
+			tasks: [{
+				id: "4216719F75C49B3E"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "500F998D1A5C6B9B"
+			tasks: [{
+				id: "6998DECFF94475B4"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "12A758FE6844A454"
+			tasks: [{
+				id: "05CD0ECE3C9A0605"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1785F2D2B997D80E"]
+			id: "25F899AD1BB5F316"
+			tasks: [{
+				id: "5397096616596C5E"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E0A01B24B01A445"]
+			id: "3D55BD879456CF8E"
+			tasks: [{
+				id: "23A9F58681341E50"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55641108747C5950"]
+			id: "6E89A9E2DC7A46B5"
+			tasks: [{
+				id: "0C053F4ED3C55F38"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F80519321F726C4"]
+			id: "33140DCC98B731E5"
+			tasks: [{
+				id: "031C46944BA45EE1"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29BDE50B47196C61"]
+			id: "55C72A68F48DF828"
+			tasks: [{
+				id: "6168F3BA6BC8C630"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49B97A0DF32CEDD8"]
+			id: "59E523957B4C97D0"
+			tasks: [{
+				id: "209141680A16E717"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["500F998D1A5C6B9B"]
+			id: "2417EA2785448CF7"
+			tasks: [{
+				id: "56962556075FC5B0"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12A758FE6844A454"]
+			id: "10387CEB1294FF72"
+			tasks: [{
+				id: "188843A254D01EC0"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33140DCC98B731E5"]
+			id: "47E8EA0B8958762C"
+			tasks: [{
+				id: "718099A6557D1DBE"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10387CEB1294FF72"]
+			id: "4B4D944462D01AC8"
+			tasks: [{
+				id: "4DBEA8BDE31E5BDB"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2417EA2785448CF7"]
+			id: "4DDE43B8486B28FA"
+			tasks: [{
+				id: "704D4C6814FD4E54"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59E523957B4C97D0"]
+			id: "11364958C1A94ADB"
+			tasks: [{
+				id: "646953E5EABD7CB7"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55C72A68F48DF828"]
+			id: "4DFA00F2461606A5"
+			tasks: [{
+				id: "119C7D9A05CBF6D9"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25F899AD1BB5F316"]
+			id: "12C11FE0CB6D1E9D"
+			tasks: [{
+				id: "46356C1B938B9FCB"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D55BD879456CF8E"]
+			id: "080E4ECDAD3E2269"
+			tasks: [{
+				id: "7A0B7F13894BFFB9"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E89A9E2DC7A46B5"]
+			id: "74463EE9603027BF"
+			tasks: [{
+				id: "7DCFE8149CE730E9"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "697CBC9DA0875395"
+			tasks: [{
+				id: "55C379F45148E449"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "7D8EF8B08724F0C7"
+			tasks: [{
+				id: "333730B5596800C7"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "3340F18EA8192A18"
+			tasks: [{
+				id: "1783B8234B4D0898"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_greathammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "7535FA4794F4B9C6"
+			tasks: [{
+				id: "663094A849F85030"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_greataxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "56D91C88543F7A23"
+			tasks: [{
+				id: "7CE6BEF4DF4E3F3D"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "1C2EEFDB34DC7C65"
+			tasks: [{
+				id: "29B2B09D102E6A1F"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "4D98A41E28552D3A"
+			tasks: [{
+				id: "4328629D27999F27"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B7F60C4C1FB7424"]
+			id: "1F3209AED5D68F6D"
+			tasks: [{
+				id: "3D3FA93986CA72F6"
+				item: {
+					Count: 1
+					id: "simplymore:iron_great_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56D91C88543F7A23"]
+			id: "5FEA55D911CF7787"
+			tasks: [{
+				id: "49E68BA7DD862171"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7535FA4794F4B9C6"]
+			id: "715A7151C33C9AA8"
+			tasks: [{
+				id: "47BCC0DCBB39BD85"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_greataxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3340F18EA8192A18"]
+			id: "659B51220C8A1110"
+			tasks: [{
+				id: "24E995911E558105"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_greathammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7D8EF8B08724F0C7"]
+			id: "00A848137CFC4FAE"
+			tasks: [{
+				id: "53AE49B106B7CBF9"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["697CBC9DA0875395"]
+			id: "3C0A28D442ABD446"
+			tasks: [{
+				id: "43B1852FDEF3EF75"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F3209AED5D68F6D"]
+			id: "059B05E781CDE358"
+			tasks: [{
+				id: "4D3F9A8C30386252"
+				item: {
+					Count: 1
+					id: "simplymore:diamond_great_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D98A41E28552D3A"]
+			id: "05F4AC97449CA41E"
+			tasks: [{
+				id: "0AB376BFFDD2A319"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C2EEFDB34DC7C65"]
+			id: "6DD96AE5F813C683"
+			tasks: [{
+				id: "2BE4E99C58B8407D"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "343E5DD804469A7C"
+			tasks: [{
+				id: "17163DC209852DFB"
+				title: "There's more but you get the point"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			id: "3A3F7A9B1040DB68"
+			tasks: [{
+				id: "37A1A097FE4F713E"
+				title: "But there are some that you can't craft"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A3F7A9B1040DB68"]
+			id: "5D8769706801F9FB"
+			rewards: [{
+				count: 5
+				id: "22B45CEC986213E2"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D842FF97D40E2F0"
+				item: {
+					Count: 1
+					id: "simplyswords:soulpyre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3A3F7A9B1040DB68"]
+			id: "037CDAC5543FE891"
+			tasks: [{
+				id: "187F8214B2DB0188"
+				item: {
+					Count: 1
+					id: "simplyswords:mjolnir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A3F7A9B1040DB68"]
+			id: "494A2C6D61729EC0"
+			tasks: [{
+				id: "1ECE50B1FF750B68"
+				item: {
+					Count: 1
+					id: "simplymore:holylight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["343E5DD804469A7C"]
+			id: "797E941F94F1303D"
+			tasks: [{
+				id: "4DD7936850A1B27D"
+				item: {
+					Count: 1
+					id: "simplymore:iron_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["343E5DD804469A7C"]
+			id: "29420018125D6D58"
+			tasks: [{
+				id: "16B06759157531DB"
+				item: {
+					Count: 1
+					id: "simplymore:iron_quarterstaff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["343E5DD804469A7C"]
+			id: "0D17EEE2FB57DEA1"
+			tasks: [{
+				id: "7D9A82A74147D99D"
+				item: {
+					Count: 1
+					id: "simplymore:iron_pernach"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+	]
+	title: "sdaas"
+}

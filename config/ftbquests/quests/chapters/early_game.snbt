@@ -1,0 +1,459 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "early_game"
+	group: "32056C4683D35E22"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "minecraft:crafting_table"
+	}
+	id: "31283F8A3E1AF29E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "522607FEBBAC2ADD"
+			rewards: [{
+				count: 2
+				id: "61FB455326DE0EFA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "590A4F0DF9F4B7E8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			title: "Getting started"
+			x: 8.0d
+			y: 35.5d
+		}
+		{
+			dependencies: ["522607FEBBAC2ADD"]
+			id: "23C9C84A4DED24F9"
+			rewards: [{
+				count: 10000
+				id: "33687C4EB779E46C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:oak_button"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "031C3454D1A94BA5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:crafting_table"
+				}
+				type: "item"
+			}]
+			title: "Crafting table"
+			x: 9.0d
+			y: 35.5d
+		}
+		{
+			dependencies: ["23C9C84A4DED24F9"]
+			id: "2110685DD03462A4"
+			rewards: [{
+				id: "6B23C9D372252888"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:rotten_flesh"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69D89BF4F1C8AB22"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mining time"
+			x: 10.0d
+			y: 35.5d
+		}
+		{
+			dependencies: ["2110685DD03462A4"]
+			id: "72054A56A7315170"
+			rewards: [{
+				id: "532926EC98836AB4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:raw_gold"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F2326E2070AC5F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			title: "Its getting stronger"
+			x: 12.0d
+			y: 35.5d
+		}
+		{
+			dependencies: ["2110685DD03462A4"]
+			id: "765C7FEA16538CF8"
+			rewards: [{
+				id: "3D55AA4E6F171A80"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 15L
+				id: "0E205845D5C3D0F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			title: "Silesia"
+			x: 10.0d
+			y: 34.5d
+		}
+		{
+			dependencies: [
+				"72054A56A7315170"
+				"765C7FEA16538CF8"
+			]
+			id: "33695572A5CB019F"
+			rewards: [{
+				id: "593C2D6A4221924C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:compass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27618DFFF28D2050"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Getting ironiey"
+			x: 12.0d
+			y: 34.5d
+		}
+		{
+			dependencies: ["72054A56A7315170"]
+			id: "7D22125F770B60F5"
+			tasks: [
+				{
+					id: "594631E5FD13D8AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EEC2EE0AE9DDC45"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DC861E7C5E8E639"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "279DA20930283671"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ready for every threat"
+			x: 12.0d
+			y: 33.5d
+		}
+		{
+			dependencies: ["522607FEBBAC2ADD"]
+			id: "50F43E2395160435"
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "21E79E34D47A5846"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Food"
+			x: 7.0d
+			y: 35.5d
+		}
+		{
+			dependencies: ["50F43E2395160435"]
+			id: "135B2949371FA013"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "77554F4CB7967488"
+				type: "advancement"
+			}]
+			title: "69 hehe"
+			x: 8.0d
+			y: 36.5d
+		}
+		{
+			id: "02D9F40DC0778B5F"
+			rewards: [{
+				id: "6EF34D59D39C6BC4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 5L
+				id: "688F700389FD4F33"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cooked_chicken"
+				}
+				type: "item"
+			}]
+			title: "Steves Lava Chicken"
+			x: 9.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["72054A56A7315170"]
+			id: "6B1442E7068AD1A0"
+			tasks: [{
+				id: "0C3C0616E871D56A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
+			title: "Bucket"
+			x: 13.0d
+			y: 35.5d
+		}
+		{
+			dependencies: ["6B1442E7068AD1A0"]
+			id: "2C425F82EFE611FF"
+			tasks: [{
+				id: "36CBE208ADB45873"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:water_bucket"
+				}
+				type: "item"
+			}]
+			title: "watah"
+			x: 13.0d
+			y: 34.5d
+		}
+		{
+			dependencies: ["6B1442E7068AD1A0"]
+			id: "3D52150DD44AA5A2"
+			tasks: [{
+				id: "72D00A0547DB1085"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
+			title: "Its a little pain in the ass"
+			x: 14.0d
+			y: 35.5d
+		}
+		{
+			dependencies: ["72054A56A7315170"]
+			id: "5E157B67192E2EBD"
+			tasks: [{
+				id: "6E5444E35C1ACBC6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Flint and steel"
+			x: 12.0d
+			y: 36.5d
+		}
+		{
+			dependencies: ["3D52150DD44AA5A2"]
+			id: "6D82C2560C780859"
+			size: 2.0d
+			tasks: [{
+				id: "54D484A68ED31270"
+				title: "First line ended"
+				type: "checkmark"
+			}]
+			title: "First line ended"
+			x: 15.5d
+			y: 35.5d
+		}
+	]
+	title: "Early game"
+}

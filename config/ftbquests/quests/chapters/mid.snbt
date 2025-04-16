@@ -1,0 +1,336 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mid"
+	group: "32056C4683D35E22"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "minecraft:obsidian"
+	}
+	id: "43A8AAAF747568D2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["31283F8A3E1AF29E"]
+			id: "14CF843BD3C1B90D"
+			tasks: [{
+				id: "6BB0F0CC81E15FFA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			title: "Its burning my eyes"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14CF843BD3C1B90D"]
+			id: "452495593D3CBD77"
+			tasks: [{
+				id: "3E932CE6AAF6D84B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Teraz to dopiero paliwo"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["452495593D3CBD77"]
+			id: "2BC8E3A249E71CB8"
+			tasks: [{
+				count: 10L
+				id: "010DCA89DE7BF05F"
+				item: {
+					Count: 10
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			title: "NA NETHER"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2BC8E3A249E71CB8"
+				"452495593D3CBD77"
+			]
+			id: "2AF3544302A9E9B7"
+			tasks: [{
+				id: "003A5502D9CB1A8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:enchanting_table"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BC8E3A249E71CB8"]
+			id: "585F57D20AD7F52B"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "20F8D7E0E4F54799"
+				type: "dimension"
+			}]
+			title: "NIGGEER"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["452495593D3CBD77"]
+			id: "12D2666A631FEEA8"
+			tasks: [
+				{
+					id: "00B06AFC6DCC0941"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD530FFDCF5E686"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D41CEAA8EC0AE1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D4B736642DE6E63"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "caly lsiacy jestem uwu"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["585F57D20AD7F52B"]
+			id: "7BDCECEF64DBE946"
+			tasks: [{
+				id: "1DC75DCF206F1E5A"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			title: "Znajdź fortece"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["585F57D20AD7F52B"]
+			id: "5BCE51CD350FB948"
+			rewards: [{
+				count: 3
+				id: "62A80C4D2122251A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:blaze_rod"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "6016D8B49EFCCAE1"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:blaze_rod"
+				}
+				type: "item"
+			}]
+			title: "Ten patyk taki jakiś inny..."
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5BCE51CD350FB948"]
+			id: "79F5F0EE8BA5006A"
+			rewards: [{
+				id: "22F40AA93987F217"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "4C3C837774FEE5DD"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:blaze_powder"
+				}
+				type: "item"
+			}]
+			title: "gorący ten mefedron"
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["79F5F0EE8BA5006A"]
+			id: "46AB01D5AB7082A8"
+			tasks: [{
+				id: "191B67F3C456E727"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:ender_eye"
+				}
+				type: "item"
+			}]
+			title: "Why it looking at me"
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7BDCECEF64DBE946"]
+			id: "4AEE0C802565D297"
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:blaze_spawn_egg"
+				}
+				id: "1D3F5F7ACDE0B3A0"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Ale oni płoną"
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["585F57D20AD7F52B"]
+			id: "42B09EC7314F4B41"
+			tasks: [{
+				count: 4L
+				id: "692C4D380FF85D87"
+				item: {
+					Count: 4
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:netherite_scrap"
+				}
+				type: "item"
+			}]
+			title: "takie cieńkie, ale zadziwjająco twarde"
+			x: 2.0d
+			y: -6.5d
+		}
+	]
+	title: "Mid"
+}

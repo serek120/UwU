@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "legendary_monsters:reinforced_monstrous_anchor"
+  ],
+  "incompatible": [
+    "minecraft:loyalty",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:channeling"
+  ]
+}

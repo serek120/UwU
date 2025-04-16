@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest"
+  ],
+  "incompatible": [
+    "minecraft:fire_protection",
+    "minecraft:blast_protection",
+    "minecraft:mending",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:feather_falling",
+    "minecraft:protection",
+    "minecraft:projectile_protection"
+  ]
+}

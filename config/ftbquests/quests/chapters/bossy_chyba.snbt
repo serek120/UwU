@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bossy_chyba"
+	group: "1C1C1B802B6225D1"
+	id: "1C0EFF15A9F56CF2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "bossy (CHYBA)"
+}

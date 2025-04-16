@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "vampirism:basic_crossbow",
+    "vampirism:basic_double_crossbow",
+    "vampirism:enhanced_crossbow",
+    "vampirism:enhanced_double_crossbow",
+    "$minecraft:crossbow"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "vampirism:crossbowfrugality"
+  ]
+}

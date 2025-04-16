@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "industrialforegoing:infinity_hammer",
+    "mowziesmobs:spear",
+    "draconicevolution:draconic_staff",
+    "draconicevolution:chaotic_staff",
+    "legendary_monsters:ender_hammer",
+    "legendary_monsters:mossy_hammer",
+    "legendary_monsters:fiery_jaw",
+    "legendary_monsters:withered_scythe",
+    "legendary_monsters:wand_of_clouds",
+    "legendary_monsters:axe_of_lightning",
+    "$minecraft:universal_enchants_axe",
+    "$minecraft:trident"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

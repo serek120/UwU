@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "industrialforegoing:infinity_trident",
+    "legendary_monsters:reinforced_monstrous_anchor",
+    "$minecraft:weapon",
+    "$minecraft:universal_enchants_axe"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:bane_of_arthropods",
+    "deeperdarker:sculk_smite",
+    "minecraft:smite"
+  ]
+}

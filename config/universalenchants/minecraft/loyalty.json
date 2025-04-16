@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "supplementaries:slingshot",
+    "legendary_monsters:reinforced_monstrous_anchor"
+  ],
+  "incompatible": [
+    "minecraft:riptide",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

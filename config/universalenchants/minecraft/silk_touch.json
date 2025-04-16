@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "legendary_monsters:withered_scythe",
+    "legendary_monsters:anchor_handle"
+  ],
+  "incompatible": [
+    "minecraft:fortune",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:luck_of_the_sea",
+    "majruszsenchantments:smelter",
+    "minecraft:looting",
+    "enderio:auto_smelt",
+    "enderio:xp_boost"
+  ]
+}
